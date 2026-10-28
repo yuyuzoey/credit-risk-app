@@ -1,0 +1,29 @@
+{
+  "threshold": 0.5,
+  "model_name": "RandomForest",
+  "selection_metric": "Recall>=0.6 约束下 Precision 最高 (F1=0.565 为参考)",
+  "selection_reason": "在验证集上，满足 Recall>=0.6 的阈值范围为 0.05~0.50，其中 0.50 的 Precision 最高(0.517)。该选择属于基于当前评价指标的实验性选择，未结合漏报/误报的具体业务成本。",
+  "validation_results": {
+    "roc_auc": 0.7986062982530342,
+    "pr_auc": 0.5833835539274674,
+    "precision": 0.5166944908180301,
+    "recall": 0.6221105527638191,
+    "f1": 0.5645234838121295,
+    "accuracy": 0.7877777777777778,
+    "confusion_matrix": [
+      [
+        2926,
+        579
+      ],
+      [
+        376,
+        619
+      ]
+    ],
+    "tp": 619,
+    "fp": 579,
+    "fn": 376,
+    "tn": 2926
+  },
+  "note": "阈值仅用验证集选择，测试集未参与"
+}

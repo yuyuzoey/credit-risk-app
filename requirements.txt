@@ -1,0 +1,14 @@
+# ---- 前端 ----
+streamlit>=1.30,<2
+plotly>=5.18,<8
+requests>=2.31
+
+# ---- 后端 ----
+fastapi>=0.110,<1
+uvicorn>=0.27,<1
+
+# ---- 计算层（前后端共用）----
+pandas>=2.0,<4
+numpy>=1.24,<3
+scikit-learn>=1.6,<2
+joblib>=1.3

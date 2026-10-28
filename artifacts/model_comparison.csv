@@ -1,0 +1,7 @@
+model,split,roc_auc,pr_auc,precision,recall,f1,accuracy,tn,fp,fn,tp
+Baseline_AllNoDefault,train,0.5,0.2212,0.0,0.0,0.0,0.7788,16354,0,4645,0
+Baseline_AllNoDefault,valid,0.5,0.2211,0.0,0.0,0.0,0.7789,3505,0,995,0
+LogisticRegression,train,0.769,0.5423,0.4934,0.577,0.5319,0.7754,13602,2752,1965,2680
+LogisticRegression,valid,0.7816,0.5682,0.513,0.595,0.551,0.7856,2943,562,403,592
+RandomForest,train,0.8823,0.7252,0.5815,0.7107,0.6396,0.8228,13978,2376,1344,3301
+RandomForest,valid,0.7986,0.5834,0.5167,0.6221,0.5645,0.7878,2926,579,376,619

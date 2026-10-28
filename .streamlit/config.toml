@@ -1,0 +1,13 @@
+# Streamlit 前端配置（前后端分离版）
+# 说明：本文件可选。没有它 Streamlit 也能跑，只是主题和端口用默认值。
+
+[theme]
+base = "light"
+primaryColor = "#C7000B"
+
+[server]
+port = 8501
+headless = true          # 启动时不自动弹浏览器，交给一键脚本控制
+
+[browser]
+gatherUsageStats = false
